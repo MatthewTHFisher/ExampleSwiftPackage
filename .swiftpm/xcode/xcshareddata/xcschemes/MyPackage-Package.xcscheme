@@ -9,34 +9,6 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Source 1"
-               BuildableName = "Source 1"
-               BlueprintName = "Source 1"
-               ReferencedContainer = "container:">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Source 2"
-               BuildableName = "Source 2"
-               BlueprintName = "Source 2"
-               ReferencedContainer = "container:">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
             buildForAnalyzing = "YES">
@@ -56,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Source1"
-               BuildableName = "Source1"
-               BlueprintName = "Source1"
+               BlueprintIdentifier = "Palindrome"
+               BuildableName = "Palindrome"
+               BlueprintName = "Palindrome"
                ReferencedContainer = "container:">
             </BuildableReference>
          </BuildActionEntry>
@@ -70,9 +42,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Source2"
-               BuildableName = "Source2"
-               BlueprintName = "Source2"
+               BlueprintIdentifier = "Sequence"
+               BuildableName = "Sequence"
+               BlueprintName = "Sequence"
+               ReferencedContainer = "container:">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "Arithmetics"
+               BuildableName = "Arithmetics"
+               BlueprintName = "Arithmetics"
                ReferencedContainer = "container:">
             </BuildableReference>
          </BuildActionEntry>
@@ -98,9 +84,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Source1Tests"
-               BuildableName = "Source1Tests"
-               BlueprintName = "Source1Tests"
+               BlueprintIdentifier = "ArithmeticsUnitTests"
+               BuildableName = "ArithmeticsUnitTests"
+               BlueprintName = "ArithmeticsUnitTests"
                ReferencedContainer = "container:">
             </BuildableReference>
          </TestableReference>
@@ -108,9 +94,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Source2Tests"
-               BuildableName = "Source2Tests"
-               BlueprintName = "Source2Tests"
+               BlueprintIdentifier = "PalindromeUnitTests"
+               BuildableName = "PalindromeUnitTests"
+               BlueprintName = "PalindromeUnitTests"
                ReferencedContainer = "container:">
             </BuildableReference>
          </TestableReference>
@@ -118,19 +104,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Source1Unit"
-               BuildableName = "Source1Unit"
-               BlueprintName = "Source1Unit"
-               ReferencedContainer = "container:">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Source2Unit"
-               BuildableName = "Source2Unit"
-               BlueprintName = "Source2Unit"
+               BlueprintIdentifier = "SequenceUnitTests"
+               BuildableName = "SequenceUnitTests"
+               BlueprintName = "SequenceUnitTests"
                ReferencedContainer = "container:">
             </BuildableReference>
          </TestableReference>
@@ -153,15 +129,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "Source 1"
-            BuildableName = "Source 1"
-            BlueprintName = "Source 1"
-            ReferencedContainer = "container:">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
