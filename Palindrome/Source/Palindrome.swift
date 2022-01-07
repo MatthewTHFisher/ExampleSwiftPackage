@@ -1,6 +1,6 @@
 //
-//  File.swift
-//  
+//  Palindrome.swift
+//  Palindrome
 //
 //  Created by Matthew Fisher on 07/01/2022.
 //

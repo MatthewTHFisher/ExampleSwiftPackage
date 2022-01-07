@@ -1,12 +1,12 @@
 //
-//  Source2Tests.swift
-//  
+//  PalindromeUnitTests.swift
+//  Palindrome
 //
 //  Created by Matthew Fisher on 07/01/2022.
 //
 
 import XCTest
-@testable import Source2
+@testable import Palindrome
 
 class Source2Unit: XCTestCase {
     func testPalindrome() throws {

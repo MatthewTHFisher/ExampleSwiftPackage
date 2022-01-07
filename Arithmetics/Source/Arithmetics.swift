@@ -1,6 +1,6 @@
 //
-//  TestSource1.swift
-//  MyPackage
+//  Arithmetics.swift
+//  Arithmetics
 //
 //  Created by Matthew Fisher on 07/01/2022.
 //

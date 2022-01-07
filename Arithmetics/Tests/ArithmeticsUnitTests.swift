@@ -1,13 +1,12 @@
 //
-//  Source1Tests.swift
-//  
+//  Arithmetics.swift
+//  Arithmetics
 //
 //  Created by Matthew Fisher on 07/01/2022.
 //
 
 import XCTest
-import Foundation
-@testable import Source1
+@testable import Arithmetics
 
 class Source1Unit: XCTestCase {
     func testAddition() throws {
