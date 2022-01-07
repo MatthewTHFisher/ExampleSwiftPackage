@@ -9,12 +9,16 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "Source 1",
-            targets: ["Source1"]
+            name: "Arithmetics",
+            targets: ["Arithmetics"]
         ),
         .library(
-            name: "Source 2",
-            targets: ["Source2"]
+            name: "Palindrome",
+            targets: ["Palindrome"]
+        ),
+        .library(
+            name: "Sequence",
+            targets: ["Sequence"]
         ),
     ],
     dependencies: [
@@ -29,28 +33,42 @@ let package = Package(
         /* Source 1 Target */
 
         .target(
-            name: "Source1",
+            name: "Arithmetics",
             dependencies: [],
-            path: "Source1/Source"
+            path: "Arithmetics/Source"
         ),
         .testTarget(
-            name: "Source1Unit",
-            dependencies: ["Source1"],
-            path: "Source1/Tests"
+            name: "ArithmeticsUnitTests",
+            dependencies: ["Arithmetics"],
+            path: "Arithmetics/Tests"
         ),
 
 
         /* Source 2 Target */
 
         .target(
-            name: "Source2",
+            name: "Palindrome",
             dependencies: [],
-            path: "Source2/Source"
+            path: "Palindrome/Source"
         ),
         .testTarget(
-            name: "Source2Unit",
-            dependencies: ["Source2"],
-            path: "Source2/Tests"
+            name: "PalindromeUnitTests",
+            dependencies: ["Palindrome"],
+            path: "Palindrome/Tests"
+        ),
+
+
+        /* Source 2 Target */
+
+        .target(
+            name: "Sequence",
+            dependencies: [],
+            path: "Sequence/Source"
+        ),
+        .testTarget(
+            name: "SequenceUnitTests",
+            dependencies: ["Sequence"],
+            path: "Sequence/Tests"
         ),
 
 
@@ -58,7 +76,7 @@ let package = Package(
 
         .testTarget(
             name: "MyPackageTests",
-            dependencies: ["Source1","Source2"],
+            dependencies: ["Arithmetics","Palindrome","Sequence"],
             path: "Tests/MyPackageTests"
         ),
     ]
