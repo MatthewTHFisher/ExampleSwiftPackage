@@ -70,14 +70,5 @@ let package = Package(
             dependencies: ["Sequence"],
             path: "Sequence/Tests"
         ),
-
-
-        /* All Package Tests */
-
-        .testTarget(
-            name: "MyPackageTests",
-            dependencies: ["Arithmetics","Palindrome","Sequence"],
-            path: "Tests/MyPackageTests"
-        ),
     ]
 )
