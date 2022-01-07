@@ -16,10 +16,6 @@ let package = Package(
             name: "Palindrome",
             targets: ["Palindrome"]
         ),
-        .library(
-            name: "Sequence",
-            targets: ["Sequence"]
-        ),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
