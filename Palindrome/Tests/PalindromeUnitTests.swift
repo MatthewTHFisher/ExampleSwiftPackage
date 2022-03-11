@@ -8,7 +8,7 @@
 import XCTest
 @testable import Palindrome
 
-class Source2Unit: XCTestCase {
+class PalindromeUnitTests: XCTestCase {
     func testPalindrome() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
