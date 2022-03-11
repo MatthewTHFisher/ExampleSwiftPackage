@@ -1,15 +1,16 @@
 # ``Arithmetics``
 
-Look at this awsome overview
+Use arithmetics to add super simple mathmatic functionality into your own projects.
 
 ## Overview
 
-Gorgeous text here
+Arithmetics provides functions to help you do maths that you were too lazy to do yourself.
 
 ## Topics
 
-### Functions
+### Counter
 
-- ``Arithmetics/addition``
-- ``Arithmetics/subtraction``
+Use counter when you don't have enough fingers to count yourself.
+
+- ``Counter``
 
