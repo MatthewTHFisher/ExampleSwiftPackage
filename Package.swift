@@ -30,7 +30,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
 
 
-        /* Source 1 Target */
+        /* Arithmetics Target */
 
         .target(
             name: "Arithmetics",
@@ -44,7 +44,7 @@ let package = Package(
         ),
 
 
-        /* Source 2 Target */
+        /* Palindrome Target */
 
         .target(
             name: "Palindrome",
@@ -58,7 +58,7 @@ let package = Package(
         ),
 
 
-        /* Source 2 Target */
+        /* Sequence Target */
 
         .target(
             name: "Sequence",

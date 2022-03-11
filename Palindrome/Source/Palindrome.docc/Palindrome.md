@@ -1,13 +1,17 @@
 # ``Palindrome``
 
-<!--@START_MENU_TOKEN@-->Summary<!--@END_MENU_TOKEN@-->
+Use palindrome to add super simple string functionality into your own projects
 
 ## Overview
 
-<!--@START_MENU_TOKEN@-->Text<!--@END_MENU_TOKEN@-->
+Palindrome provides functions to help you check if a string is a palindrome or not.
 
-## Topics
+```swift
+let testString = "racecar"
 
-### <!--@START_MENU_TOKEN@-->Group<!--@END_MENU_TOKEN@-->
-
-- <!--@START_MENU_TOKEN@-->``Symbol``<!--@END_MENU_TOKEN@-->
+if palindromeChecker(testString) == true {
+    print("'" + testString + "' is a palindrome!")
+} else {
+    print("'" + testString + "' is not a palindrome!")
+}
+```

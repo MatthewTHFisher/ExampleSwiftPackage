@@ -1,7 +1,7 @@
 # Example Swift Package
 *The following repository is for learning and developing knowledge of swift packages and is not maintained.*
 
-The project uses a Swift package that has multiple targets and [DocC documentation](https://developer.apple.com/documentation/docc). The provided package has been developed to teach how swift packages are created in a way that multiple frameworks can sit within a singular swift package.
+The project uses a [Swift package](https://developer.apple.com/documentation/swift_packages) that has multiple targets and [DocC documentation](https://developer.apple.com/documentation/docc). The provided package has been developed to teach how swift packages are created in a way that multiple frameworks can sit within a singular swift package.
 
 ## Getting Started
 
