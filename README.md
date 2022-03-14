@@ -1,4 +1,4 @@
-# Example Swift Package ![CI/CD](https://github.com/MatthewTHFisher/ExampleSwiftPackage/actions/workflows/swift.yml/badge.svg)
+# Example Swift Package ![CI/CD](https://github.com/MatthewTHFisher/ExampleSwiftPackage/actions/workflows/pipeline.yml/badge.svg)
 
 *The following repository is for learning and developing knowledge of swift packages and is not maintained.*
 
