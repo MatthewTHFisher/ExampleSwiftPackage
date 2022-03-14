@@ -1,4 +1,5 @@
-# Example Swift Package
+# Example Swift Package ![CI/CD](https://github.com/MatthewTHFisher/ExampleSwiftPackage/actions/workflows/swift.yml/badge.svg)
+
 *The following repository is for learning and developing knowledge of swift packages and is not maintained.*
 
 The project uses a [Swift package](https://developer.apple.com/documentation/swift_packages) that has multiple modules, and targets each with [DocC documentation](https://developer.apple.com/documentation/docc). The provided package has been developed to teach how swift packages are created in a way that multiple modules can sit within a singular swift package.
