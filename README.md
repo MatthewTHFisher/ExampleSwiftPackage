@@ -3,6 +3,14 @@
 
 The project uses a [Swift package](https://developer.apple.com/documentation/swift_packages) that has multiple targets and [DocC documentation](https://developer.apple.com/documentation/docc). The provided package has been developed to teach how swift packages are created in a way that multiple frameworks can sit within a singular swift package.
 
+This swift package currently incorportated three unique targets/frameworks which are shown in the table below:
+
+| Target / Framework | Description |
+| ----------- | ----------- |
+| Arithmetics | Simply mathematical functions including a counter object. |
+| Palindrome  | Contatins functionality to check whether a palindrome is valid or not. |
+| Sequence    | Functions that can be performed on an array, currently only includes a simply sort function. |
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for learning, developing, and testing purposes.
@@ -25,4 +33,4 @@ Clone the package using the clone button above. Once downloaded onto the PC simp
 
 ## Authors
 
-* **Matthew Fisher** MEng Mechatronics and Robotics, University of Leeds.
+* **Matthew Fisher** MIET MEng Mechatronics and Robotics, University of Leeds.
