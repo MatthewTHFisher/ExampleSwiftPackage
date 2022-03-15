@@ -22,7 +22,7 @@ The only prerequisite is that Xcode 13.0 and above is used.
 
 ### Installing
 
-To install the required libraries into the Arduino IDE there are two methods.
+To install the required libraries into an Xcode project there are two methods.
 
 **1. Using Xcode's Swift Package Manager**
 Go to File -> Add Packages... With the library manager open simply search for the package using the [GitHub link](https://github.com/MatthewTHFisher/ExampleSwiftPackage) of this page. Once the package has been fetched a list of all the optional modules that can be imported will be presented. Make sure atleast one is selected, there is no requirements for anyone of these to be added.
