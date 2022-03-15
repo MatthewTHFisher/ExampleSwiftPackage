@@ -8,7 +8,7 @@ This swift package currently incorportated three unique modules which are shown 
 
 | Module      | Description |
 | ----------- | ----------- |
-| Arithmetics | Simply mathematical functions including a counter object. |
+| Arithmetics | Simple mathematical functions including a counter object. |
 | Palindrome  | Contatins functionality to check whether a palindrome is valid or not. |
 | Sequence    | Functions that can be performed on an array, currently only includes a simply sort function. |
 
