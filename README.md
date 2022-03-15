@@ -29,7 +29,7 @@ Go to File -> Add Packages... With the library manager open simply search for th
 **Note: This method will allow not you to edit the package.**
    
 **2. Manually downloading the package**
-Clone the package using the clone button above. Once downloaded onto the PC simply go to File -> Add Packages... With the library manager open select the Add Local button and navigate to the downloaded package. This will add the package as a dependency to the project.
+Clone the package using the clone button above. Once downloaded onto the PC simply go to File -> Add Packages... With the library manager open select the Add Local button and navigate to the downloaded package. This will add the package as a dependency to the project. THe final step is to tell the target about the framework: go to the project settings -> your target -> General -> Frameworks, Libraries, and Embedded Content -> click the plus button and add the frameworks.
 **Note: This method will allow you to edit the downloaded package.**
 
 ### Useage
