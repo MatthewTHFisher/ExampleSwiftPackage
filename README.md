@@ -6,9 +6,9 @@ The project uses a [Swift package](https://developer.apple.com/documentation/swi
 
 This swift package currently incorportated three unique modules which are shown in the table below:
 
-| Module      | Description |
-| ----------- | ----------- |
-| Arithmetics | Simple mathematical functions including a counter object. |
+| Module      | Description | Documentation |
+| ----------- | ----------- | ----------- |
+| Arithmetics | Simple mathematical functions including a counter object. | [Link](https://matthewthfisher.github.io/ExampleSwiftPackage/documentation/arithmetics)
 | Palindrome  | Contatins functionality to check whether a palindrome is valid or not. |
 | Sequence    | Functions that can be performed on an array, currently only includes a simply sort function. |
 
