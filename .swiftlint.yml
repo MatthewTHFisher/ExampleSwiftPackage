@@ -1,0 +1,9 @@
+opt_in_rules:
+  - control_statement
+  - empty_count
+  - trailing_newline
+  - colon
+  - comma
+  - file_header
+  - missing_docs
+  - explicit_self
